@@ -5,9 +5,6 @@
 ## Prerequisities 
 - [Starter Project](https://github.com/ncytimothy/LSHK_05_21_2019_SummerDrinksStarter)
 
-## Getting Started
-
-- Get started with the reviewing the completed Playground
 
 ## Authors
 
