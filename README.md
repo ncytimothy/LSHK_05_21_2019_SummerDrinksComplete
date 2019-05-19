@@ -3,7 +3,7 @@
 * [Meetup Link](https://www.meetup.com/Learn-Swift-HK/events/260189158/)
 
 ## Prerequisities 
-- *[Starter Project](https://github.com/ncytimothy/LSHK_05_21_2019_SummerDrinksStarter)
+- [Starter Project](https://github.com/ncytimothy/LSHK_05_21_2019_SummerDrinksStarter)
 
 ## Getting Started
 
