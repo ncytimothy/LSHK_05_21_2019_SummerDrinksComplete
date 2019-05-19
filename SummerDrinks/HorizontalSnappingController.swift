@@ -10,8 +10,11 @@ import UIKit
 
 class HorizontalSnappingCollectionView: UICollectionView {
     init() {
+        
         let layout = SnappingLayout()
         super.init(frame: .zero, collectionViewLayout: layout)
+        // call after super init
+        decelerationRate = .fast
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -21,5 +24,8 @@ class HorizontalSnappingCollectionView: UICollectionView {
 
 class SnappingLayout: UICollectionViewFlowLayout {
     // snapping behavior
-    
+    override func targetContentOffset(forProposedContentOffset proposedContentOffset: CGPoint, withScrollingVelocity velocity: CGPoint) -> CGPoint {
+        // .zero snaps back to (0,0)
+        return .zero
+    }
 }
