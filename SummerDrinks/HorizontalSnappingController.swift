@@ -23,9 +23,18 @@ class HorizontalSnappingCollectionView: UICollectionView {
 }
 
 class SnappingLayout: UICollectionViewFlowLayout {
-    // snapping behavior
+    // snapping behavior, rudimentary solution
     override func targetContentOffset(forProposedContentOffset proposedContentOffset: CGPoint, withScrollingVelocity velocity: CGPoint) -> CGPoint {
         // .zero snaps back to (0,0)
-        return .zero
+        guard let collectionView = self.collectionView else {
+            return super.targetContentOffset(forProposedContentOffset: proposedContentOffset, withScrollingVelocity: velocity)
+        }
+        let horizontalOffset: CGFloat = 48
+        // Rough math
+        let itemWidth = collectionView.frame.width - horizontalOffset
+        let pageNumber = collectionView.contentOffset.x / itemWidth
+        print(round(pageNumber))
+        
+         return CGPoint(x: pageNumber * itemWidth, y: 0)
     }
 }
