@@ -13,7 +13,8 @@ class FeaturedController: UIViewController, UICollectionViewDelegate, UICollecti
     private let headerId = "headerId"
     private let cellId = "cellId"
     
-    let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout())
+    let collectionView = HorizontalSnappingCollectionView()
+    
     
     let drinks = [Drink("Iced Shaken Green Tea Lemonade", "Fresh and Light", "green_tea_lemonade"),
                       Drink("Chestnut Latte", "Rich and Creamy", "chestnut_coffee"),
@@ -70,7 +71,7 @@ class FeaturedController: UIViewController, UICollectionViewDelegate, UICollecti
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return .init(width: view.frame.width - 24, height: collectionView.frame.height)
+        return .init(width: view.frame.width - 48, height: collectionView.frame.height)
     }
     
    

@@ -20,6 +20,7 @@
 		226BA9282290E6FA00996109 /* FeaturedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226BA9272290E6FA00996109 /* FeaturedCard.swift */; };
 		226BA92A2290F2D900996109 /* FeaturedFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226BA9292290F2D900996109 /* FeaturedFooter.swift */; };
 		226BA92C2290F7D000996109 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226BA92B2290F7D000996109 /* Drink.swift */; };
+		22A14C3A22913A2D002EDFD2 /* HorizontalSnappingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A14C3922913A2D002EDFD2 /* HorizontalSnappingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		226BA9272290E6FA00996109 /* FeaturedCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCard.swift; sourceTree = "<group>"; };
 		226BA9292290F2D900996109 /* FeaturedFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedFooter.swift; sourceTree = "<group>"; };
 		226BA92B2290F7D000996109 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		22A14C3922913A2D002EDFD2 /* HorizontalSnappingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSnappingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			children = (
 				226BA8F32290DB0200996109 /* AppDelegate.swift */,
 				226BA8F52290DB0200996109 /* FeaturedController.swift */,
+				22A14C3922913A2D002EDFD2 /* HorizontalSnappingController.swift */,
 				226BA92B2290F7D000996109 /* Drink.swift */,
 				226BA9212290DE3600996109 /* FeaturedHeader.swift */,
 				226BA9292290F2D900996109 /* FeaturedFooter.swift */,
@@ -279,6 +282,7 @@
 				226BA9282290E6FA00996109 /* FeaturedCard.swift in Sources */,
 				226BA9222290DE3600996109 /* FeaturedHeader.swift in Sources */,
 				226BA8F42290DB0200996109 /* AppDelegate.swift in Sources */,
+				22A14C3A22913A2D002EDFD2 /* HorizontalSnappingController.swift in Sources */,
 				226BA9242290DFC600996109 /* Extensions.swift in Sources */,
 				226BA92C2290F7D000996109 /* Drink.swift in Sources */,
 				226BA9262290E01400996109 /* UI+Layout.swift in Sources */,
